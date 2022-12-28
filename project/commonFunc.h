@@ -1,0 +1,12 @@
+void gotoxy(int x, int y);
+void changeIndex(int* x, int* y, int* index, int changeIndex);
+void reSizeConsole(int width, int height);
+void clearCursor();
+void showCursor();
+void drawStart(int* screenStatus);
+void drawBoard();
+void drawDescription(int* screenStatus);
+void drawMenu(int* screenStatus);
+void drawPlayerChoose(int* screenStatus);
+void initializeBoard(int(*board)[4]);
+int checkGameOver(int(*board)[4]);
